@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <title>OctoPocus in VR: Using a Dynamic Guide for 3D Mid-Air Gestures in Virtual Reality</title>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width,minimum-scale=1.0">
+    <meta name=description content="OctoPocus in VR: Using a Dynamic Guide for 3D Mid-Air Gestures in Virtual Reality.">
+    <meta name=keywords content="OctoPocus, Virtual Reality, Study, Gesture Recognizer, Waterloo, TVCG">
+    <meta name=author content="Exii, University of Waterloo">
+    <meta name=robots content=all>
+    <link rel=apple-touch-icon sizes=180x180 href=assets/favicons/apple-touch-icon.png>
+    <link rel=icon type=image/png sizes=32x32 href=assets/favicons/favicon-32x32.png>
+    <link rel=icon type=image/png sizes=16x16 href=assets/favicons/favicon-16x16.png>
+    <link rel=manifest href=assets/site.webmanifest>
+    <link rel=mask-icon href=assets/safari-pinned-tab.svg color=#5bbad5>
+    <meta name=msapplication-TileColor content=#da532c>
+    <meta name=theme-color content=#ffffff>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@400;500;700;900&display=swap" rel=stylesheet>
+    <link rel=stylesheet href=assets/css/style.css>
+    <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js></script>
+</head>
+
+<body>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPPFHZQ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <canvas id=global-canvas></canvas>
+    <div class=container>
+        <div class=header>
+            <div class=title>
+                <h1> OctoPocus in VR: Using a Dynamic Guide for </br> 3D Mid-Air Gestures in Virtual Reality</h1>
+                <div class=title-line>
+                    <hr>
+                </div>
+            </div>
+            <div class=subheading>
+                <h2>IEEE TVCG 2021</h2>
+                <p class=subheading-link> <a href=assets/Fennedy_OctoPocus_in_VR_TVCG_2021.pdf>Download PDF (5 MB)</a></p>
+            </div>
+            <div class=authors>
+                <h4>
+                    <p style=text-align:center>
+                        <span class=no-wrap><a href=https://kfennedy.com/ target=_blank>Katherine Fennedy</a>,</span>
+                        <span class=no-wrap><a href=https://jjhartmann.org target=_blank>Jeremy Hartmann</a>,</span>
+                        <span class=no-wrap><a href=https://quentinroy.fr/ target=_blank>Quentin Roy</a>,</span> <br>
+                        <span class=no-wrap><a href=https://istd.sutd.edu.sg/people/faculty/simon-perrault target=_blank>Simon T Perrault</a>,</span>
+                        <span class=no-wrap><a href=https://www.nonsequitoria.com/ target=_blank> Daniel Vogel</a></span>
+                    </p>
+                </h4>
+            </div>
+            <div class=organization>
+                <h3>Singapore University of Technology and Design <br> University of Waterloo</h3>
+            </div>
+        </div>
+        <div class=content>
+            <div class="section video-container"> <iframe width=560 height=315 src=https://www.youtube.com/embed/# frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+            <br>
+            <div class=paper-thumbnails>
+                <div class=page>
+                    <a href=assets/Fennedy_OctoPocus_in_VR_TVCG_2021.pdf><img src=assets/img/OctoPocus_in_VR_Page_02.jpg alt="Download OctoPocus in VR Paper in pdf" class=linkimg></a>
+                </div>
+                <div class=page>
+                    <a href=assets/Fennedy_OctoPocus_in_VR_TVCG_2021.pdf#page=2><img src=assets/img/OctoPocus_in_VR_Page_03.jpg alt="Download OctoPocus in VR Paper in pdf" class=linkimg></a>
+                </div>
+                <div class=page>
+                    <a href=assets/Fennedy_OctoPocus_in_VR_TVCG_2021.pdf#page=3><img src=assets/img/OctoPocus_in_VR_Page_04.jpg alt="Download OctoPocus in VR Paper in pdf" class=linkimg></a>
+                </div>
+                <div class=page>
+                    <a href=assets/Fennedy_OctoPocus_in_VR_TVCG_2021.pdf#page=4><img src=assets/img/OctoPocus_in_VR_Page_05.jpg alt="Download OctoPocus in VR Paper in pdf" class=linkimg></a>
+                </div>
+                <p class=pt-15> Click to <a href=assets/Fennedy_OctoPocus_in_VR_TVCG_2021.pdf class=content-link>download</a> a PDF of the paper. </p>
+            </div>
+            <div class=section>
+                <h5>Abstract</h5>
+                <p> <span class=dropcap>B</span>au and Mackay’s OctoPocus dynamic guide helps novices learn, execute, and remember 2D surface gestures. We adapt OctoPocus to 3D mid-air gestures in Virtual Reality (VR) using an optimization-based recognizer,
+                    and by introducing an optional exploration mode to help visualize the spatial complexity of guides in a 3D gesture set. A replication of the original experiment protocol is used to compare OctoPocus in VR with a VR implementation of
+                    a crib-sheet. Results show that despite requiring 0.9s more reaction time than crib-sheet, OctoPocus enables participants to execute gestures 1.8s faster with 13.8% more accuracy during training, while remembering a comparable number
+                    of gestures. Subjective ratings support these results, 75% of participants found OctoPocus easier to learn and 83% found it more accurate. We contribute an implementation and empirical evidence demonstrating that an adaptation of he
+                    OctoPocus guide to VR is feasible and beneficial. </p>
+            </div>
+        </div>
+        <div class=content>
+            <div class=section>
+                <h5>GitHub</h5>
+                <p> The gesture recognizer is available as
+                    <a href=https://github.com/exii-uw/GestureRecognizerUnity target=_blank> <b>open-source code on GitHub</b></a>. The Unity package provides code and examples for general purpose gesture matching for VR. </p>
+
+                <iframe src="https://ghbtns.com/github-btn.html?user=exii-uw&repo=GestureRecognizerUnity&type=star&count=true&size=large" frameborder=0 scrolling=0 width=170 height=30 title=GitHub></iframe> </div>
+
+            <div class=section>
+                <h5 style="text-transform: none;">BibTeX</h5>
+                <!-- prettier-ignore --><textarea id=bibtex-text class="ta-cite bibtex" autocomplete=off spellcheck=false>@ARTICLE{9507320,
+  author={Fennedy, Katherine and Hartmann, Jeremy and Roy, Quentin and Perrault, Simon T. and Vogel, Daniel},
+  journal={IEEE Transactions on Visualization and Computer Graphics}, 
+  title={OctoPocus in VR: Using a Dynamic Guide for 3D Mid-Air Gestures in Virtual Reality}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TVCG.2021.3101854}}</textarea> </div>
+            <div class=section>
+                <h5 style="text-transform: none;">IEEE Citation Format</h5>
+                <!-- prettier-ignore --><textarea id=bibtex-text class="ta-cite bibacm" autocomplete=off spellcheck=false>K. Fennedy, J. Hartmann, Q. Roy, S. T. Perrault and D. Vogel, "OctoPocus in VR: Using a Dynamic Guide for 3D Mid-Air Gestures in Virtual Reality," in IEEE Transactions on Visualization and Computer Graphics, doi: 10.1109/TVCG.2021.3101854.</textarea>                </div>
+        </div>
+        <div class=footer>
+            <div class=footer-decoration>
+                <div class=footer-decoration-col style="background-color: #1A1A1A;"></div>
+                <div class=footer-decoration-col style="background-color: #D413BD;"></div>
+                <div class=footer-decoration-col style="background-color: #4D0766;"></div>
+                <div class=footer-decoration-col style="background-color: #0599A3;"></div>
+            </div>
+            <div class=footer-content>
+                <div class=footer-links-row>
+                    <div class=footer-links-left>
+                        <h6>Additional Links</h6>
+                        <ul class="footer-links">
+                            <li>
+                                <a href="https://www.computer.org/csdl/journal/tg">TVCG 2021</a>
+                            </li>
+                            <li><a href="https://ieeexplore.ieee.org/Xplore/home.jsp">IEEE Digital Library</a></li>
+                        </ul>
+                    </div>
+                    <div class=footer-links-right>
+                        <a href=https://istd.sutd.edu.sg/ class=imglink><img src=assets/img/SUTD_logo.webp class="logos linkimg" width="60%"></a>
+                        <a href=http://hci.cs.uwaterloo.ca/ class=imglink><img src=assets/img/uwhci-cs.png class="logos linkimg" width="60%"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src=assets/js/main.js></script>
+</body>
+
+</html>
